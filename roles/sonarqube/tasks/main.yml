@@ -1,0 +1,9 @@
+---
+- name: Include prerequisites
+  include_tasks: install_prereqs.yml
+
+- name: Install SonarQube
+  include_tasks: install_sonarqube.yml
+
+- name: Configure SonarQube
+  include_tasks: configure_sonarqube.yml

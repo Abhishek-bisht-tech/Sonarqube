@@ -1,0 +1,8 @@
+sonarqube_version: "25.6.0.109173"
+sonarqube_user: "sonar"
+sonarqube_group: "sonar"
+sonarqube_install_dir: "/opt/sonarqube"
+sonarqube_home: "{{ sonarqube_install_dir }}/sonarqube-{{ sonarqube_version }}"
+sonarqube_service_name: "sonarqube"
+sonarqube_java_opts: "-Xmx512m -Xms512m -XX:+HeapDumpOnOutOfMemoryError"
+sonarqube_port: 9000

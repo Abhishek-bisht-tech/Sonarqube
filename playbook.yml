@@ -1,0 +1,7 @@
+---
+- name: Setup SonarQube on all servers
+  hosts: all
+  become: true
+  roles:
+    - sonarqube
+

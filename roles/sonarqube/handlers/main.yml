@@ -1,0 +1,9 @@
+---
+- name: Restart SonarQube
+  systemd:
+    name: "{{ sonarqube_service_name }}"
+    state: restarted
+    enabled: true
+
+- name: Reload systemd
+  command: systemctl daemon-reexec
