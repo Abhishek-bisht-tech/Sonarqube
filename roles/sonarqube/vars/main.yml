@@ -3,3 +3,9 @@ ubuntu_prereqs:
   - openjdk-17-jdk
   - unzip
   - wget
+
+
+centos_prereqs:
+  - java-17-openjdk
+  - unzip
+  - wget
