@@ -1,6 +1,6 @@
 ---
 - name: Setup SonarQube on all servers
-  hosts: all
+  hosts: localhost
   become: true
   roles:
     - sonarqube
