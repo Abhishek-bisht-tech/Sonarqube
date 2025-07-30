@@ -8,4 +8,5 @@ hostnames:
   - dns-name
 filters:
   tag:Name: "web"
+  hostname_variable: public_ip_address
   instance-state-name: running
