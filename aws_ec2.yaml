@@ -6,9 +6,6 @@ keyed_groups:
   - key: tags.Name
     prefix: tag
 
-hostnames:
-  - public_ip_address   
-
 filters:
   tag:Name: web
   instance-state-name: running
