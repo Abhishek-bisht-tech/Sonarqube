@@ -1,6 +1,6 @@
 ---
 - name: Setup SonarQube on all servers
-  hosts: tag_Name_web
+  hosts: tag_web
   become: true
   roles:
     - sonarqube
