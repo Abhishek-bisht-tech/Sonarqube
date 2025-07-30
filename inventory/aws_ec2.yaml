@@ -7,4 +7,5 @@ keyed_groups:
 hostnames:
   - dns-name
 filters:
+  tag:Name: "web"
   instance-state-name: running
